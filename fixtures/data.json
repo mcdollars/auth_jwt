@@ -1,0 +1,122 @@
+[
+  {
+    "model": "users",
+    "data": {
+      "id": 1,
+      "username": "BradyMoss",
+      "password": "loremIpsum"
+    }
+  },
+  {
+    "model": "users",
+    "data": {
+      "id": 2,
+      "username": "pomegranateapplepig",
+      "password": "establishedfact"
+    }
+  },
+  {
+    "model": "users",
+    "data": {
+      "id": 3,
+      "username": "pomegranatepieabloom",
+      "password": "distracteduser"
+    }
+  },
+  {
+    "model": "users",
+    "data": {
+      "id": 4,
+      "username": "DionneWall",
+      "password": "readablePass"
+    }
+  },
+  {
+    "model": "users",
+    "data": {
+      "id": 5,
+      "username": "BradshawCote",
+      "password": "passages"
+    }
+  },
+  {
+    "model": "users",
+    "data": {
+      "id": 6,
+      "username": "Saundersfarley",
+      "password": "classicalLatin"
+    }
+  },
+  {
+    "model": "users",
+    "data": {
+      "id": 7,
+      "username": "Sloanroman",
+      "password": "desktop"
+    }
+  },
+  {
+    "model": "users",
+    "data": {
+      "id": 8,
+      "username": "Jarvisporter",
+      "password": "collegePass"
+    }
+  },
+  {
+    "model": "users",
+    "data": {
+      "id": 9,
+      "username": "Beatricemoon",
+      "password": "typeSetting"
+    }
+  },
+  {
+    "model": "users",
+    "data": {
+      "id": 10,
+      "username": "Jacklynknowles",
+      "password": "Electronic"
+    }
+  },
+  {
+    "model": "users",
+    "data": {
+      "id": 11,
+      "username": "SearsBarnes",
+      "password": "writtenLog"
+    }
+  },
+  {
+    "model": "users",
+    "data": {
+      "id": 12,
+      "username": "AlissaRowland",
+      "password": "reproducedAtom"
+    }
+  },
+  {
+    "model": "users",
+    "data": {
+      "id": 13,
+      "username": "StefanieMcclain",
+      "password": "injectedHumour"
+    }
+  },
+  {
+    "model": "users",
+    "data": {
+      "id": 14,
+      "username": "CarverFoley",
+      "password": "handFulModel"
+    }
+  },
+  {
+    "model": "users",
+    "data": {
+      "id": 15,
+      "username": "unpackcolossal",
+      "password": "factchecker"
+    }
+  }
+]

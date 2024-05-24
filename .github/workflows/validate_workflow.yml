@@ -1,0 +1,29 @@
+name: Validate Question
+on:
+  workflow_dispatch:
+env:
+  HACKERRANK_TOKEN: ${{ secrets.QUESTION_TOKEN }}
+  HACKERRANK_STACKS: ${{ vars.HACKERRANK_STACKS }}
+jobs:
+  validate:
+    runs-on: ubuntu-latest
+    steps:
+      - name: checkout
+        uses: actions/checkout@v3
+      - name: run script
+        uses: actions/setup-python@v4
+        with:
+          python-version: 'pypy3.9'
+      - run: zip -r project.zip . -x '*.git*'
+      - run: pip install -r ./.github/scripts/requirements.txt
+      - run: python -u ./.github/scripts/validate.py ${{ github.event.repository.name }}
+      - name: Find Pull Request
+        uses: juliangruber/find-pull-request-action@v1
+        id: find-pull-request
+        with:
+          branch: ${{ github.ref_name }}
+      - name: Approve Pull Request
+        uses: juliangruber/approve-pull-request-action@v2.0.0
+        with:
+          github-token: ${{ github.token }}
+          number: ${{ steps.find-pull-request.outputs.number }}
